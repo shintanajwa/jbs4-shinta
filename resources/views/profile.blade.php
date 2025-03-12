@@ -1,25 +1,31 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    </head>
-    <body>
+@extends('layouts.app')
+
+@section('title', 'Profil Pengguna')
+
+@section('content')
+
         <div class="container mt-4">
             <div class="card">
                 <div class="card-header">
-                     <h1>Profil Saya</h1>
+                     <h1>Profil Pengguna</h1>
                 </div>
                 <div class="card-body">
-                    <img src="nayyyo.jpg" alt="Profile Picture" width="150">
-                     <h3>Shinta Ainun Najwa</h3>
-                     <p>Email : shintaainun37@gmail.com</p>
-                     <p>Bio: Siswa SMKN 1 Sayung</p>
-                     <h5>Skills: </h5>
+                    <img src="{{ asset($profile['profile_picture']) }}" alt="Profile Picture" width="150">
+                     <h3>{{ $profile['name'] }}</h3>
+                     <p>Email : {{ $profile['email'] }} </p>
+                     <p>Bio: {{ $profile['bio'] }}</p>
+
+                     @if(count($profile['skills']) > 0) 
+                     <h5>Skills   : </h5>
                      <ul>
-                        <li>Manajemen Waktu</li>
-                        <li>Kerja Tim</li>
-                        <li>Pengelolaan Media Sosial</li>
+                         
+                        @foreach($profile['skills'] as $skill)
+                        <li>{{ $skill }}</li>
+                        @endforeach
+                    </ul>   
+                    @else
+                    <p>Tidak ada skill yang ditampilkan</p> 
+                    @endif   
                 </div>
             </div>
-         </div>
-    <body>
-</html>
+@endsection

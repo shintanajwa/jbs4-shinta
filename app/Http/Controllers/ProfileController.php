@@ -8,6 +8,14 @@ class ProfileController extends Controller
 {
     public function index()
     {
-        return view('profile');
+
+        $profile = [
+            'name' => 'Shinta Ainun Najwa',
+            'email' => 'shintaainun37@gmail.com',
+            'bio' => 'halo',
+            'profile_picture' => 'nayyyo.jpg',
+            'skills' => ['kerja sama tim', 'mengelola waktu', 'kreativitas']
+        ];
+        return view('profile', compact('profile'));
     }
 }
