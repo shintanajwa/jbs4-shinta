@@ -12,7 +12,7 @@ class ProfileController extends Controller
         $profile = [
             'name' => 'Shinta Ainun Najwa',
             'email' => 'shintaainun37@gmail.com',
-            'bio' => 'halo',
+            'bio' => 'simplicity is the ultimate sophistication.',
             'profile_picture' => 'nayyyo.jpg',
             'skills' => ['kerja sama tim', 'mengelola waktu', 'kreativitas']
         ];
