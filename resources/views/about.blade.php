@@ -31,7 +31,7 @@
                     </ul>
                 </div>
                 <div class="md:w-1/2 flex justify-center items-center mt-4 md:mt-0">
-                    <img src="https://placehold.co/150x150" alt="Visi dan Misi" class="rounded" width="150" height="150">
+                    <img src="nayyyo.jpg" alt="Visi dan Misi" class="rounded" width="150" height="150">
                 </div>
             </div>
         </section>
@@ -39,28 +39,11 @@
             <center><h2 class="text-2xl font-semibold mb-4">Perjalanan Saya</h2><center>
             <p>Di usia 17 tahun ini, saya ingin memanfaatkan waktu untuk lebih mengenal diri sendiri dan mengejar hal-hal yang saya minati. Saya akan fokus pada pendidikan, namun juga berusaha menjaga keseimbangan hidup dengan menjaga hubungan baik dengan orang-orang terdekat. Saya berencana untuk lebih mandiri, belajar mengelola keuangan, dan mulai merencanakan masa depan dengan lebih matang. Setiap tantangan yang datang, saya akan hadapi dengan sikap positif dan tekad untuk terus berkembang.</p>
         </section>
-        <section class="mb-12">
-            <center><h2 class="text-2xl font-semibold mb-4">Tim Kami</h2><center>
-            <div class="flex flex-col md:flex-row md:justify-between">
-                <div class="md:w-1/3 flex flex-col items-center mb-4 md:mb-0">
-                    <img src="https://placehold.co/100x100" alt="John Doe" class="rounded-full mb-2" width="100" height="100">
-                    <h3 class="text-lg font-semibold">John Doe</h3>
-                    <p>Founder &amp; CEO</p>
-                </div>
-                <div class="md:w-1/3 flex flex-col items-center mb-4 md:mb-0">
-                    <img src="https://placehold.co/100x100" alt="Jane Smith" class="rounded-full mb-2" width="100" height="100">
-                    <h3 class="text-lg font-semibold">Jane Smith</h3>
-                    <p>Lead Developer</p>
-                </div>
-                <div class="md:w-1/3 flex flex-col items-center">
-                    <img src="https://placehold.co/100x100" alt="Mike Johnson" class="rounded-full mb-2" width="100" height="100">
-                    <h3 class="text-lg font-semibold">Mike Johnson</h3>
-                    <p>UI/UX Designer</p>
-                </div>
+        
             </div>
         </section>
         <section>
-            <center><h2 class="text-2xl font-semibold mb-4">Hubungi Kami</h2></center>
+            <center><h2 class="text-2xl font-semibold mb-4">Hubungi Saya</h2></center>
             <!-- Add contact information here -->
         </section>
         <p class="text-center">
